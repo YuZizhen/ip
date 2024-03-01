@@ -46,7 +46,7 @@ Users can check all the tasks inside the TodoList by entering **"list"** command
 
 ## Feature Mark as Done
 
-Users can mark tasks as Done by entering **"mark INDEX_i"**
+Users can mark tasks as Done by entering **"mark [INDEX_i]"**
 The above command would mark the task at INDEX i as done.
 
 For example:
@@ -57,7 +57,7 @@ The output would looks like
 
 ## Feature Unmark tasks
 
-Users can unmark tasks by entering **"unmark INDEX_i"**
+Users can unmark tasks by entering **"unmark [INDEX_i]"**
 The above command would unmark the task at INDEX i.
 
 For example:
@@ -68,7 +68,7 @@ The output would looks like
 
 ## Feature Delete tasks
 
-Users can delete tasks by entering **"delete INDEX_i"**
+Users can delete tasks by entering **"delete [INDEX_i]"**
 The above command would delete the task at INDEX i.
 
 For example:
@@ -77,7 +77,7 @@ In Zizhen, the deletion will automatically move the task to the **archived list*
 
 ## Feature Find tasks
 
-Users can find tasks by entering **"find String s"**
+Users can find tasks by entering **"find [String s]"**
 The above command would filter the tasks that contains the String s.
 
 ## Feature Archiving
